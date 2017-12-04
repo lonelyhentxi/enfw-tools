@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  shows how to use babel compiler
-// @author       lonelyhentai
+// @author       anonymous
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.2/babel.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.16.0/polyfill.js
 // @match        http://online.zhihuishu.com/CreateCourse/learning/videoList?courseId=*
@@ -23,7 +23,7 @@ var inline_src = (<><![CDATA[
         let passTimes = document.querySelectorAll('.passTime');
         if(passTimes.length!==0){
             let passTime = passTimes[0];
-            if(/100.*%/.test(passTime.style.width)){
+            if(/100%/.test(passTime.style.width)){
                 let videoList = document.querySelectorAll('.clearfix.video.children');
                 let current = document.getElementsByClassName('progressbar_box_tip')[0].parentNode;
                 videoList[[...videoList].indexOf(current)+1].click();
