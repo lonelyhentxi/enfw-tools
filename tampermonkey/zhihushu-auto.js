@@ -6,7 +6,7 @@
 // @author       anonymous
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.2/babel.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.16.0/polyfill.js
-// @match        http://online.zhihuishu.com/CreateCourse/learning/videoList?courseId=*
+// @match        http://course.zhihuishu.com/learning/videoList?courseId=*
 // ==/UserScript==
 
 /* jshint ignore:start */
@@ -24,8 +24,9 @@ var inline_src = (<><![CDATA[
         if(passTimes.length!==0){
             let passTime = passTimes[0];
             if(/100%/.test(passTime.style.width)){
-                let videoList = document.querySelectorAll('.clearfix.video.children');
-                let current = document.getElementsByClassName('progressbar_box_tip')[0].parentNode;
+                let videoList = document.querySelectorAll('.clearfix.video');
+                console.log(videoList);
+                let current = document.getElementsByClassName('progressbar_box')[0].parentNode;
                 videoList[[...videoList].indexOf(current)+1].click();
             }
         }
