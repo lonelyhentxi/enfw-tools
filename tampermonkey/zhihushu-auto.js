@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutoZhihushu
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  shows how to use babel compiler
 // @author       anonymous
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.2/babel.js
