@@ -1,8 +1,7 @@
 // ==UserScript==
-// @name         AutoZhihushu
+// @name         zhihuishu-agent
 // @namespace    http://tampermonkey.net/
 // @version      0.2
-// @description  shows how to use babel compiler
 // @author       anonymous
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.2/babel.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.16.0/polyfill.js
