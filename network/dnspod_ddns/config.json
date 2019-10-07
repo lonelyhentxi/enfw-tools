@@ -1,0 +1,8 @@
+[{
+    "login_token":"token_id,token",
+    "domain_id":"domain_id",
+    "record_id":"record_id",
+    "record_line_id":"record_line_id",
+    "sub_domain":"sub_domain",
+    "kind":"ipv6"
+}]
