@@ -1,0 +1,1 @@
+0 3 * * 0 /bin/cp -f /storage/backup/backup.img.gz /storage/backup/older.img.gz && dd if=/dev/sda2 conv=sync,noerror bs=1M | gzip -c > /storage/backup/backup.img.gz
