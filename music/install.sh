@@ -1,0 +1,1 @@
+yay -S neroaacenc-bin neroaacdec-bin neroaactag-bin --noconfirm
