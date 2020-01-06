@@ -30,7 +30,7 @@ def parse_proxy_config(vs_home: Path,
             proxy_content.setAttribute('proxyaddress', proxy_value)
             proxy_item.appendChild(proxy_content)
             system_net.appendChild(proxy_item)
-            f.seek(0,0)
+            f.seek(0, 0)
             f.write(dom.toxml())
 
 
