@@ -7,6 +7,9 @@
 // @match        https://*.xuetangx.com/lms
 // ==/UserScript==
 
+
+var inline_src = (<><![CDATA[
+    
 const log = (str) => {
     console.log("[ENFW-XUETANGX]: " + str);
 }
@@ -15,9 +18,9 @@ const activateAllChapters = () => {
     return new Promise((resolve, _) => {
         const chapters = document.querySelectorAll(".tree-chapter-item");
         for(const c of chapters) {
-            const isActive = !(c.querySelector('.icon-plus'));
-            if(isActive) {
-                c.click();
+            const icon = (c.querySelector('.icon-plus'));
+            if(!!icon) {
+                icon.click();
             }
         }
         requestAnimationFrame(()=> {
