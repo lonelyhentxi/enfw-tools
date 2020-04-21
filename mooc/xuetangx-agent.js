@@ -7,9 +7,8 @@
 // @match        https://*.xuetangx.com/lms
 // ==/UserScript==
 
-
 var inline_src = (<><![CDATA[
-    
+
 const log = (str) => {
     console.log("[ENFW-XUETANGX]: " + str);
 }
