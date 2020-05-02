@@ -1,0 +1,11 @@
+---
+smtp_username: info@evernightfireworks.com
+smtp_password: xxxxxxxxxxxx
+smtp_host: smtp.qq.com
+smtp_port: 587
+smtp_mechanism: Login
+use_tls: true
+from_email: info@evernightfireworks.com
+from_alias: ENFW INFO
+to_email: master@evernightfireworks.com
+to_alias: lonelyhentai
